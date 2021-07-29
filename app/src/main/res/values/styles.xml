@@ -1,0 +1,138 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:windowAnimationStyle">@style/AppTheme.WindowTransition</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.WindowTransition" parent="@style/AppTheme">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="MyMaterialButton" parent="@style/Widget.MaterialComponents.Button" />
+
+
+    <style name="AppTheme.AppBarOverlay" parent="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="AppTheme.AppBarOverlay.LightActionBar" parent="@style/ThemeOverlay.MaterialComponents.Light" />
+
+
+    <style name="AppTheme.PopupOverlay" parent="@style/ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="AppTheme.PopupOverlay.DarkPopup" parent="@style/ThemeOverlay.MaterialComponents.Dark" />
+
+    <style name="MyTabStyle" parent="@style/Widget.Design.TabLayout">
+        <item name="android:elevation">0.0dip</item>
+        <item name="tabIconTint">@color/colorWhite</item>
+        <item name="tabIndicatorColor">@color/colorWhite</item>
+        <item name="tabIndicatorHeight">2.5dip</item>
+        <item name="tabSelectedTextColor">@color/colorWhite</item>
+        <item name="tabTextColor">@color/white_trans</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar" parent="@style/AppTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ripple_bordered">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+    </style>
+
+    <style name="MyTextViewHomeSubtitle">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginStart">@dimen/activity_main_row_items_start_margin</item>
+    </style>
+
+    <style name="MyTextViewHomeTitle">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginStart">@dimen/activity_main_row_items_start_margin</item>
+    </style>
+
+
+    <style name="HorizontalDivider">
+        <item name="android:background">?android:listDivider</item>
+    </style>
+
+    <style name="MyCardView">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardElevation">0.5dip</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+
+    <style name="TextButton" parent="@style/Widget.MaterialComponents.Button.TextButton" />
+
+
+    <style name="MyTextButton" parent="@style/Widget.MaterialComponents.Button.TextButton" />
+
+    <style name="MyTextViewHeadline">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+    </style>
+
+    <style name="MyTextViewHomeSubItems">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginStart">@dimen/activity_main_row_items_start_margin</item>
+    </style>
+
+
+
+
+    <style name="MyTextViewLarge">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+    </style>
+
+    <style name="MyTextViewMedium">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+    </style>
+
+    <style name="MyTextViewSmall">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+
+    <style name="MyTextViewSubtitle">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Subhead</item>
+    </style>
+
+    <style name="MyTextViewTitle">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+    <style name="MyUnelevatedButton" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton" />
+
+
+    <style name="ButtonActionStyle" parent="android:Widget.Button">
+        <item name="android:background">@drawable/purple_rounded_shape_bg</item>
+        <item name="android:fontFamily">@font/calibri</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>
+
+
