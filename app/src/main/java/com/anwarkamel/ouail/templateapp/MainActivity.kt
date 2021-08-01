@@ -25,11 +25,9 @@ class MainActivity : AppCompatActivity() {
         super.onStart()
         currentlang = SharedPrefManager.getInstance(this).lang
 
-
         setAppLocale(this, currentlang!!)
-
-
         Log.i("clang", currentlang)
+
 
     }
 
